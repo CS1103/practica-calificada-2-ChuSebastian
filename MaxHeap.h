@@ -14,7 +14,11 @@ template <typename T>
 T get_max(vector <T> v){
     make_heap(v.begin(), v.end());
     cout << "Max Heap: " << v.front() << endl;
+}
 
+template <typename T>
+T insert(vector <T> v, T num){
+    v.push_back(num);
 }
 
 
