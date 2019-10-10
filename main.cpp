@@ -11,7 +11,6 @@ int main(){
    print(Contenedor);
    get_max(Contenedor);
 
-
     return 0;
 }
 
